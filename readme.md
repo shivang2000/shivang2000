@@ -1,52 +1,51 @@
 # Shivang Chheda
 
-**Full-Stack & AI-Agent Engineer** · React · TypeScript · Node.js · Go · MCP
+**Product engineer.** I build the whole product — UI, backend, payments, infra — and then I run it in production.
 
-Remote (India · US/EU time zones) · ships with Claude & Codex daily
+4+ years at product startups, mostly US, fully remote from India (US/EU overlap). AI-native, human-accountable: parallel Claude Code agents do the typing; the design, review, merge and release are mine.
 
 <div>
-  <a href="https://shivangchheda.dev" target="_blank"><img src="https://img.shields.io/static/v1?message=Website&logo=safari&label=&color=1a1a1a&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="website" /></a>
+  <a href="https://shivangchheda.dev" target="_blank"><img src="https://img.shields.io/static/v1?message=Portfolio&logo=safari&label=&color=1a1a1a&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="portfolio" /></a>
   <a href="https://www.linkedin.com/in/shivang-chheda-83400415a/" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="linkedin" /></a>
   <a href="https://x.com/shivangchheda22" target="_blank"><img src="https://img.shields.io/static/v1?message=X&logo=x&label=&color=1a1a1a&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="x" /></a>
-  <a href="mailto:shivangchheda@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="gmail" /></a>
+  <a href="mailto:shivangchheda@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="email" /></a>
 </div>
 
 ---
 
-## About
+## Selected work
 
-Full-stack engineer with **4+ years** building data-heavy products for US startups — fully remote, async-first. Deep in React/TypeScript on the front end, Node.js and Go on the back, with distributed-systems comfort (microservices, gRPC, Docker, Kubernetes). I own features end-to-end and now build **AI-agent infrastructure** on top of the Model Context Protocol (MCP).
+| | |
+|---|---|
+| **Trestle** · developer portal | Led a 13-month memory effort: DOM nodes **−46–56%** on every audited page, one admin-page leak cut **97%**, a 450-row table down to **19** mounted rows. Portal redesign → **2–3× self-serve revenue**. |
+| **FactWise** · procurement SaaS | Owned the Bill of Materials module behind a **$100K ARR** enterprise win — recursive trees of hundreds of items, one re-render per edit. |
+| **Zania** · AI compliance | SOC 2 Type II features inside an AI compliance agent that helped close a new enterprise client. |
+| **Confidential AI travel platform** | Production off Kubernetes with **0 errors**, AWS spend **−40%**, automatic refunds across 6 booking types, Postgres RLS on 20 tables. |
 
-## 🚀 Featured Projects
+Full case studies, every number sourced → **[shivangchheda.dev](https://shivangchheda.dev)**
 
-- **[termbridge](https://github.com/shivang2000/termbridge)** — one terminal that an AI agent (via MCP) and a human (via browser) drive at the *same time*, so an agent can pilot **Claude Code** like a human — on a subscription, not the metered API. TypeScript · ~900 tests · published to npm (`@termbridge/*`) + Docker.
-- **[claude-account-switcher](https://github.com/shivang2000/claude-account-switcher)** — Rust plugin for Claude Code to switch between multiple Pro accounts.
-- **Archestra (OSS)** — merged a focused PR into [archestra-ai/archestra](https://github.com/archestra-ai/archestra), a VC-backed MCP gateway for AI agents (AI-native React/TypeScript) — [PR #3868](https://github.com/archestra-ai/archestra/pull/3868).
+## Building in the open
 
-## 💼 Impact
+- **[termbridge](https://github.com/shivang2000/termbridge)** — one terminal an AI agent (over MCP) and a human (in the browser) drive at the same time; grab the keyboard and the agent pauses. Bun monorepo, 600+ tests, `@termbridge/core` on npm.
+- **[Alertforge](https://github.com/shivang2000/sentry-fixer-bot)** — Sentry alert → Claude triage → Claude Code fix in an isolated worktree → reviewed draft PR. Never auto-merges.
+- **[claude-account-switcher](https://github.com/shivang2000/claude-account-switcher)** — Rust plugin for Claude Code to switch between Pro accounts.
+- **Archestra** — merged [PR #3868](https://github.com/archestra-ai/archestra/pull/3868) into a VC-backed MCP gateway: code-block copy buttons, reusing its own CodeBlock pair, with tests.
 
-- **Trestle** — redesigned the developer portal homepage → **2–3× self-serve revenue** (Next.js 14).
-- **FactWise** — owned the Bill-of-Materials module → helped secure a **$100K ARR** enterprise client; recursive BOMs (100s of nested items) with atomic Redux selectors that held performance at enterprise scale.
-- **Zania** — shipped SOC 2 Type II controls inside an AI compliance agent → contributed to closing a new enterprise client.
-- **Wow Rooms** — built a high-performance hotel-search API in **Go** that held through festival-peak traffic.
+## How I build
 
-## 🛠 Stack
+`VS Code + autocomplete` → `Claude Code agents in tmux panes` → `T3 Code: agents in isolated worktrees, multi-model review, me on merge`
 
-**Frontend:** React · Next.js · TypeScript · Redux · TailwindCSS
-**Backend:** Node.js · Express · Go · Prisma · gRPC · REST
-**Systems:** Docker · Kubernetes · AWS · microservices · MCP
-**AI:** Claude Code · Codex (daily driver)
+Work that took weeks now ships in one to two days. [Standout](https://standout.work) scored the workflow **97/100 — top 3% of 5,456 developers** (2.6 agents in parallel, 4,364 sessions).
 
-## 📫 Connect
+## Stack
 
-[shivangchheda.dev](https://shivangchheda.dev) · [LinkedIn](https://www.linkedin.com/in/shivang-chheda-83400415a/) · [X / @shivangchheda22](https://x.com/shivangchheda22) · shivangchheda@gmail.com
+**Every day:** TypeScript · React 19 · Next.js · React Native / Expo · Tailwind · Python · FastAPI · Postgres
+**Production:** Stripe · Redis · Terraform · AWS · Cloudflare · Docker · GitHub Actions
+**Observability:** Sentry · PostHog · Chrome DevTools · k6
+**AI:** Claude Code · MCP · LangGraph
 
 ---
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=shivang2000&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=8" height="160" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shivang2000&theme=dracula&hide_border=true&radius=8&area=true" alt="Contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shivang2000&theme=github-compact&hide_border=true&radius=8&area=true" alt="Contribution graph" />
 </div>
